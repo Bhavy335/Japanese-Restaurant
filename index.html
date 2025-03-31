@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Themed Restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Serif JP', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-red-700 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">Sakura Restaurant</a>
+            <ul class="flex space-x-4 text-white">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#menu" class="hover:text-gray-300">Menu</a></li>
+                <li><a href="#gallery" class="hover:text-gray-300">Gallery</a></li>
+                <li><a href="#reviews" class="hover:text-gray-300">Reviews</a></li>
+                <li><a href="#reservation" class="hover:text-gray-300">Reservation</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative">
+        <img src="https://storage.googleapis.com/a1aa/image/PlCz5sfDsa05XYHds5jDDBvnl7Dt-Z7upOlODWF33jU.jpg" alt="Japanese restaurant interior with traditional decor" class="w-full h-96 object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <h1 class="text-white text-4xl md:text-6xl font-bold">Welcome to Sakura Restaurant</h1>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto text-center md:text-left md:flex md:items-center">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold mb-4">About Us</h2>
+                <p class="text-gray-700 leading-relaxed">Sakura Restaurant offers an authentic Japanese dining experience with a modern twist. Our chefs use the freshest ingredients to create delicious and visually stunning dishes. Come and enjoy a meal in our beautifully decorated restaurant, inspired by traditional Japanese aesthetics.</p>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://storage.googleapis.com/a1aa/image/PlCz5sfDsa05XYHds5jDDBvnl7Dt-Z7upOlODWF33jU.jpg" alt="Restaurant interior" class="w-full h-64 object-cover rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Menu</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/J9_Wfc1okBf-Sta0JYcVWu0ZM2VbtECWYiAfBH75YFc.jpg" alt="Sushi platter with various types of sushi" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Sushi Platter</h3>
+                    <p class="text-gray-700">A variety of fresh sushi, including nigiri, sashimi, and rolls.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/bBdxt9VU8jDigMa6zcT2gfwZwBHROyHPgQfmsWJp5GE.jpg" alt="Bowl of ramen with pork, egg, and vegetables" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Ramen</h3>
+                    <p class="text-gray-700">Delicious ramen with rich broth, tender pork, and fresh vegetables.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/9NOeW7aMSh1MX4j1a3JhmsAWFY_0ijo9HSm0VVTLgKc.jpg" alt="Plate of tempura with shrimp and vegetables" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Tempura</h3>
+                    <p class="text-gray-700">Crispy tempura with shrimp and a variety of vegetables.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/0W9kbp2Zh4Wcb4B54BfpXZSObWWu_4diQj_jQXh4gpY.jpg" alt="Bento box with rice, fish, and vegetables" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Bento Box</h3>
+                    <p class="text-gray-700">A traditional bento box with rice, fish, and vegetables.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/O4PZ8_B5GpSmhjoBa1GZ9IxKtq-TOF2JlJlAEkI9v7M.jpg" alt="Plate of sashimi with various types of fish" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Sashimi</h3>
+                    <p class="text-gray-700">Fresh sashimi with a selection of the finest fish.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/0ttyLIQefE1ghNP8ki-phASXUjzMPUyWfuYp6eW2RaY.jpg" alt="Plate of gyoza dumplings with dipping sauce" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Gyoza</h3>
+                    <p class="text-gray-700">Pan-fried gyoza dumplings with a savory filling and dipping sauce.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Gallery</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <img src="https://storage.googleapis.com/a1aa/image/ZzV7j4-kV6pA-a7bAwGbVZrU96jDLt2-dBck0po2Pmc.jpg" alt="Interior of the restaurant with traditional Japanese decor" class="w-full h-48 object-cover rounded-lg">
+                <img src="https://storage.googleapis.com/a1aa/image/MmVpwGQ9bdURYcCtLA_XF6NKdl8CfbytlUHtNnilUvE.jpg" alt="Chef preparing sushi at the counter" class="w-full h-48 object-cover rounded-lg">
+                <img src="https://storage.googleapis.com/a1aa/image/o-V7JU1URfrMmnqoqyqMlCKx2kKlmqfZzcOFY7zTtr8.jpg" alt="Beautifully arranged sushi platter" class="w-full h-48 object-cover rounded-lg">
+                <img src="https://storage.googleapis.com/a1aa/image/EUVtS7jc43uNrcf83yXLSfI0Qy1ttTKc-NY4YbbnSgg.jpg" alt="Dining area with Japanese lanterns and decor" class="w-full h-48 object-cover rounded-lg">
+                <img src="https://storage.googleapis.com/a1aa/image/GnLKZU2ul9mYo4Hx24CZuv4wYI37hyQ4nZPIKKFZbDU.jpg" alt="Close-up of a bowl of ramen" class="w-full h-48 object-cover rounded-lg">
+                <img src="https://storage.googleapis.com/a1aa/image/WclYBORWVyCyCAmvUiBD-Nl7IYtTXTOA4x-Z3jOaO-w.jpg" alt="Traditional Japanese tea set" class="w-full h-48 object-cover rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Customer Reviews</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <p class="text-gray-700">"The best sushi I've ever had! The atmosphere is amazing and the staff are very friendly."</p>
+                    <p class="text-gray-500 mt-2">- John Doe</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <p class="text-gray-700">"A wonderful dining experience. The ramen was delicious and the decor is beautiful."</p>
+                    <p class="text-gray-500 mt-2">- Jane Smith</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <p class="text-gray-700">"Highly recommend this restaurant. The tempura was perfectly crispy and the service was excellent."</p>
+                    <p class="text-gray-500 mt-2">- Michael Brown</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Make a Reservation</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="date" class="block text-gray-700">Date</label>
+                    <input type="date" id="date" class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="time" class="block text-gray-700">Time</label>
+                    <input type="time" id="time" class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="guests" class="block text-gray-700">Number of Guests</label>
+                    <input type="number" id="guests" class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <button type="submit" class="bg-red-700 text-white px-4 py-2 rounded-lg">Reserve Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- New Section: Chef's Special -->
+    <section id="special" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Chef's Special</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/0ttyLIQefE1ghNP8ki-phASXUjzMPUyWfuYp6eW2RaY.jpg" alt="Special sushi roll with unique ingredients" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Special Sushi Roll</h3>
+                    <p class="text-gray-700">A unique sushi roll crafted with the finest ingredients and a touch of creativity.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/bBdxt9VU8jDigMa6zcT2gfwZwBHROyHPgQfmsWJp5GE.jpg" alt="Exclusive ramen bowl with premium toppings" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Exclusive Ramen</h3>
+                    <p class="text-gray-700">A rich and flavorful ramen bowl with premium toppings, available for a limited time.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/9NOeW7aMSh1MX4j1a3JhmsAWFY_0ijo9HSm0VVTLgKc.jpg" alt="Seasonal tempura with fresh ingredients" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Seasonal Tempura</h3>
+                    <p class="text-gray-700">Crispy tempura made with the freshest seasonal ingredients, perfect for any occasion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Section: Events -->
+    <section id="events" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Upcoming Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/ZzV7j4-kV6pA-a7bAwGbVZrU96jDLt2-dBck0po2Pmc.jpg" alt="Sushi making workshop" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Sushi Making Workshop</h3>
+                    <p class="text-gray-700">Join our expert chefs for a hands-on sushi making workshop. Learn the art of sushi and enjoy your creations.</p>
+                    <p class="text-gray-500 mt-2">Date: June 25, 2023</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/MmVpwGQ9bdURYcCtLA_XF6NKdl8CfbytlUHtNnilUvE.jpg" alt="Japanese tea ceremony" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Japanese Tea Ceremony</h3>
+                    <p class="text-gray-700">Experience the traditional Japanese tea ceremony. Learn about the history and enjoy a cup of matcha tea.</p>
+                    <p class="text-gray-500 mt-2">Date: July 10, 2023</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/o-V7JU1URfrMmnqoqyqMlCKx2kKlmqfZzcOFY7zTtr8.jpg" alt="Sake tasting event" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Sake Tasting Event</h3>
+                    <p class="text-gray-700">Join us for an exclusive sake tasting event. Sample a variety of premium sakes and learn about their origins.</p>
+                    <p class="text-gray-500 mt-2">Date: August 5, 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Section: Unique Layout -->
+    <section id="unique" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Unique Layout</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-4 rounded-lg shadow-lg md:col-span-2">
+                    <img src="https://storage.googleapis.com/a1aa/image/0ttyLIQefE1ghNP8ki-phASXUjzMPUyWfuYp6eW2RaY.jpg" alt="Unique dish" class="w-full h-64 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Unique Dish</h3>
+                    <p class="text-gray-700">A special dish crafted with unique ingredients and a touch of creativity.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg">
+                    <img src="https://storage.googleapis.com/a1aa/image/bBdxt9VU8jDigMa6zcT2gfwZwBHROyHPgQfmsWJp5GE.jpg" alt="Exclusive ramen" class="w-full h-64 object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Exclusive Ramen</h3>
+                    <p class="text-gray-700">A rich and flavorful ramen bowl with premium toppings, available for a limited time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+            <p class="text-gray-700 mb-4">Have any questions or feedback? We'd love to hear from you!</p>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="contact-name" class="block text-gray-700">Name</label>
+                    <input type="text" id="contact-name" class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="contact-email" class="block text-gray-700">Email</label>
+                    <input type="email" id="contact-email" class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="contact-message" class="block text-gray-700">Message</label>
+                    <textarea id="contact-message" class="w-full p-2 border border-gray-300 rounded-lg" rows="5"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Send</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
